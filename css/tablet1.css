@@ -1,0 +1,128 @@
+@media(max-width: 1125px)
+{
+    header nav .btn-menu {
+        display: block;
+    }
+    header > nav .menu {
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #241D26;
+        overflow: hidden;
+        height: 0;
+        transition: 0.3s;
+    }
+    header > nav > ul > li {
+        height: 55px;
+        transition: .3s;
+    }
+    header > nav > ul > li:nth-child(7),
+    header > nav > ul > li:nth-child(2),
+    header > nav > ul > li:nth-child(3),
+    header > nav > ul > li:nth-child(4),
+    header > nav > ul > li:nth-child(5),
+    header > nav > ul > li:nth-child(6){
+        border-top: 1px solid #2d2d2d;
+    }
+    header > nav > ul > li::after {
+        display: none;
+    }
+    header > nav > ul > li .menu_c2 {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+        height: 0;
+        transition: .3s;
+    }
+    header > nav > ul > li:hover .menu_c2 {
+        animation: none;
+    }
+    header > nav > ul > li .menu_c2 > li {
+        height: 55px;
+        top: 101%;
+        background: #241D26;
+        border-top: 1px solid #2d2d2d;
+    }
+    header > nav > ul > li .menu_c2 > li > a {
+        padding: 0;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    header > nav > ul > li .menu_c2 > li > a:hover{
+        background: #241D26;
+        color: white;
+    }
+    .menu li .plus,
+    .type-services .plus {
+        position: absolute;
+        width: 15px;
+        right: 40px;
+    }
+    .type-services .plus {
+        width: 12px;
+        right: 20px;
+    }
+    .menu li .plus span,
+    .type-services .plus span {
+        width: 100%;
+        position: absolute;
+        height: 2px;
+        background: white;
+        transition: .3s;
+    }
+    .type-services .plus span {
+        background: #9e9e9e;
+    }
+    .menu li .plus span:nth-child(2),
+    .type-services .plus span:nth-child(2) {
+        transform: rotate(90deg);
+    }
+    .menu .active1 .plus span:nth-child(2),
+    .type-services .active1 .plus span:nth-child(2){
+        transform: rotate(0deg);
+    }
+    .home1-services-container {
+        width: 950px;
+    }
+    .home1-story,
+    .home1-client-say .title-say {
+        height: auto;
+    }
+    .home1-client-say .list-photo {
+        width: 100%;
+    }
+    .home1-client-say .list-photo .container-photo {
+        width: 550px;
+    }
+    .home1-appointment .box-appointment {
+        height: 160px;
+        width: 900px;
+        margin: 0 auto;
+    }
+    .home1-day-spa-packages .list-packages {
+        width: 950px;
+    }
+    .home1-day-spa-packages .list-packages .package {
+        padding: 60px 40px;
+    }
+    .home1-day-spa-packages .list-packages .package > h3 {
+        font-size: 22px;
+    }
+    .home1-day-spa-packages .list-packages .package > p {
+        font-size: 16px;
+    }
+    .choose-us .reason {
+        padding: 0px 20px 0 85px;
+    }
+    .choose-us .reason h1 {
+        font-size: 55px;
+    }
+    .happy-team .happy-team-list-name {
+        width: 950px;
+    }
+    .happy-team .happy-team-list-name .item {
+        width: 300px;
+    }
+}

@@ -1,0 +1,81 @@
+@media(max-width: 767px)
+{
+    .home1 > div > div .title > h1 {
+        font-size: 35px;
+        margin: 8px 0;
+    }
+    .home1 .container-img > div .title > h3 {
+        font-size: 20px;
+    }
+    .home1 > div > div .title > p {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .home1 .container-img .title .book-now {
+        padding: 8px 15px;
+        font-size: 15px;
+        width: 78px;
+        height: 18px;
+    }
+    .home1-services .home1-services-title {
+        width: 465px;
+    }
+    .home1-services-container {
+        grid-template-columns: 100%;
+        width: 580px;
+    }
+    .home1-client-say .list-photo .container-photo {
+        width: 500px;
+    }
+    .home1-appointment {
+        height: auto;
+        background-size: cover;
+    }
+    .home1-appointment .box-appointment {
+        grid-template-columns: auto;
+        width: 500px;
+        height: 460px;
+    }
+    .home1-pricing-plan .pricing-plan-title {
+        width: 465px;
+        margin-bottom: 50px;
+    }
+    .home1-pricing-plan .pricing-plan-menu {
+        width: 580px;
+    }
+    .home1-pricing-plan .pricing-plan-menu > nav {
+        width: 510px;
+        border: none;
+    }
+    .home1-pricing-plan .pricing-plan-menu > nav > ul > li {
+        margin: 0 5px;
+        background: #efefef;
+        border-radius: 5px;
+    }
+    .home1-pricing-plan .pricing-plan-menu > nav > ul .active {
+        background: #ff8ac7;
+    }
+    .home1-day-spa-packages .day-spa-title {
+        width: 500px;
+    }
+    .home1-day-spa-packages .list-packages {
+        width: 100%;
+    }
+    .home1-day-spa-packages .list-packages .package {
+        width: 360px;
+        margin: 20px auto;
+    }
+    .choose-us .statistical {
+        flex-direction: column;
+    }
+    .choose-us .statistical li {
+        margin-bottom: 50px;
+    }
+    .happy-team .happy-team-list-name {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .happy-team .happy-team-list-name .item {
+        width: 220px;
+    }
+}

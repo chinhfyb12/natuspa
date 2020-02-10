@@ -1,0 +1,125 @@
+@media(max-width: 990px)
+{
+    .home1 .container-img > div .title {
+        left: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home1 .container-img > div .title > h3 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .home1 > div > div .title > h1 {
+        text-align: center;
+        font-size: 45px;
+        margin: 15px 0;
+    }
+    .home1 > div > div .title > p{
+        width: 600px;
+        text-align: center;
+        font-size: 19px;
+    }
+    .home1 .container-img .title .book-now {
+        height: 20px;
+    }
+    .home1-services-container {
+        grid-template-columns: auto auto;
+        width: 750px;
+        height: auto;
+    }
+    .home1-services {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .home1-story .home1-story-video {
+        background-position-x: 0;
+        height: 540px;
+    }
+    .home1-story .home1-story-title {
+        padding: 0px 20px 50px 40px;
+    }
+    .home1-client-say .title-say > p {
+        font-size: 22px;
+    }
+    .home1-appointment .make {
+        font-size: 16px;
+    }
+    .home1-appointment > h1 {
+        font-size: 45px;
+        margin: 20px 0;
+    }
+    .home1-appointment .box-appointment {
+        grid-template-columns: auto auto;
+        height: 235px;
+        width: 750px;
+    }
+    ::placeholder {
+        font-size: 16px;
+    }
+    .home1-pricing-plan {
+        height: auto;
+    }
+    .home1-pricing-plan .pricing-plan-menu .menu-list {
+        grid-template-columns: 100%;
+    }
+    .home1-day-spa-packages {
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .home1-day-spa-packages .list-packages {
+        width: 750px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .home1-day-spa-packages .list-packages .package {
+        width: 250px;
+    }
+    .choose-us {
+        grid-template-columns: 100%;
+        height: auto;
+        padding: 90px 0;
+    }
+    .choose-us .reason {
+        margin-bottom: 80px;
+        padding: 0 50px;
+    }
+    .choose-us .reason p:nth-child(1) {
+        text-align: center;
+    }
+    .choose-us .reason h1 {
+        text-align: center;
+        padding: 0px 110px;
+        font-size: 40px;
+    }
+    .choose-us .reason p:nth-child(3) {
+        text-align: center;
+        padding: 0 50px;
+    }
+    .choose-us .statistical {
+        padding: 0 90px;
+    }
+    .happy-team {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .happy-team .happy-team-list-name {
+        width: 750px;
+    }
+    .happy-team .happy-team-list-name .item {
+        width: 240px;
+    }
+    .blog-post .list-item-blog {
+        display: flex;
+        flex-direction: column;
+        width: 750px;
+        margin: 0 auto;
+    }
+    .blog-post .list-item-blog .item {
+        margin: 35px;
+    }
+    .home1-story {
+        grid-template-columns: 100%;
+    }
+}

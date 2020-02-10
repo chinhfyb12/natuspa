@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+header {
+    width: 100%;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    z-index: 1;
+}
+header > nav {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+header > nav > a {
+    width: auto;
+    height: 75%;
+    position: absolute;
+    left: 6%;
+}
+header > nav .btn-menu{
+    width: 35px;
+    height: 24px;
+    margin: 0 80px 0 auto;
+    position: relative;
+    display: none;
+}
+header > nav .btn-menu .show {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+header > nav .btn-menu .active2 span:nth-child(1) {
+    -webkit-transform: rotate(45deg) translate(7px, 8px);
+    transform: rotate(45deg) translate(7px, 8px);
+}
+header > nav .btn-menu .active2 span:nth-child(2) {
+    opacity: 0;
+}
+header > nav .btn-menu .active2 span:nth-child(3) {
+    -webkit-transform: rotate(-45deg) translate(7px, -9px);
+    transform: rotate(-45deg) translate(7px, -9px);
+}
+header > nav .btn-menu .show span {
+    width: 100%;
+    height: 2px;
+    background: white;
+    transition: .3s;
+}
+header > nav > ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    right: 4%;
+    font-size: 17px;
+}
+header > nav > ul > li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header > nav a {
+    color: white;
+}
+header > nav > ul > li > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header > nav > ul > li::after {
+    content: '';
+    position: absolute;
+    bottom: 32px;
+    width: 0;
+    border: 1px solid white;
+    opacity: 0;
+    transition: .5s;
+}
+header > nav > ul > li:hover::after {
+    opacity: 1;
+    width: 50%;
+}
+header > nav .menu .active::after {
+    content: '';
+    position: absolute;
+    bottom: 32px;
+    width: 50%;
+    border: 1px solid white;
+    opacity: 1;
+}
+header > nav > ul > li .menu_c2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: black;
+    width: 180px;
+    left: 0;
+    animation-duration: .5s;
+}
+header > nav > ul > li:hover .menu_c2{
+    animation-name: amt-menu-c2;
+    display: block;
+}
+header > nav > ul > li .menu_c2 > li {
+    height: 45px;
+}
+header > nav > ul > li .menu_c2 > li > a {
+    width: 160px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    transition: .5s;
+}
+header > nav > ul > li .menu_c2 > li > a:hover {
+    background: rgb(26, 26, 26);
+    color: chartreuse;
+}
+@keyframes amt-menu-c2 {
+    0%{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
